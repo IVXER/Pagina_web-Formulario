@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +9,63 @@
     <link rel="stylesheet" href="style/style2.css">
     <title>BMW Colombia Oficial </title>
 </head>
+
 <body>
     <header>
         <nav>
-          <ul class="menu">
-                   <li class="lista"><a href="index.html">Inicio</a></li>
-                   <li class="lista"><a href="#">Información</a></li>
-                   <li class="lista lista-r"><a href="#">Contactenos</a></li>
-          </ul>
+            <ul class="menu">
+                <li class="lista"><a href="index.html">Inicio</a></li>
+                <li class="lista"><a href="#">Información</a></li>
+                <li class="lista lista-r"><a href="#">Contactenos</a></li>
+            </ul>
         </nav>
-     </header>
+    </header>
 
-     <main>
-      
-<div id="PrincipalBoxFormulario">
-    <div id="kk">
-            <p>Propietario del vehículo:</p>
-            <input type="text" placeholder="Propietario del vehículo" class="input-Formulario-uno-dos">
-            <p>Módelo del vehículo:</p>
-            <input type="text" placeholder="Módelo del vehiculo" class="input-Formulario-uno-dos">
-      <div id="form">
-        <div id="div-Tercera-Linea">
-            <p>Placa</p>
-            <input type="text" placeholder="NN-NN-LL" class="input-Formulario-Tres">
-        </div>
-        <div id="div-Tercera-Linea">
-            <p>Tipo de vehículo</p>
-            <input type="text" placeholder="Carro-Moto" class="input-Formulario-Tres">
-        </div>
-      </div>
-      <div id="form2">
-        <div>
-            <p>Fecha de Entrada</p>
-            <input class="Fecha" type="date" class="input-Formulario-Cuatro">
-        </div>
-        <div>
-            <p>Hora de inicio</p>
-            <input type="text" placeholder="hh:mm" class="input-Formulario-Cuartro">
-        </div>
-        <div>
-            <p>Cantidad de horas</p>
-            <input type="text" placeholder="Cantidad" class="input-Formulario">
-        </div>
-      </div>
-    </div>
-</div>
-     </main>
+    <main>
+        <form action="" id="form2">
+            <div id="PrincipalBoxFormulario">
+                <div id="ee">
+                    <p>Propietario del vehículo:</p>
+                    <input type="text" placeholder="Propietario del vehículo" id="Propietario">
+                    <p>Módelo del vehículo:</p>
+                    <input type="text" placeholder="Módelo del vehiculo" id="Modelo">
+                    <div id="form">
+                        <div id="div-Tercera-Linea">
+                            <p>Placa</p>
+                            <input type="text" placeholder="NN-NN-LL" id="Placa">
+                        </div>
+                        <div id="div-Tercera-Linea">
+                            <p>Tipo de vehículo</p>
+                            <input type="text" placeholder="Carro-Moto" id="TipoV">
+                        </div>
+                    </div>
+                    <div id="form2">
+                        <div>
+                            <p>Fecha de Entrada</p>
+                            <input type="date" id="Fecha">
+                        </div>
+                        <div>
+                            <p>Hora de inicio</p>
+                            <input type="time" placeholder="hh:mm" id="Inicio">
+                        </div>
+                        <div>
+                            <p>Cantidad de horas</p>
+                            <input type="number" placeholder="Cantidad" id="Horas">
+                        </div>
+                     
+                    </div>
+                    <div id="boton">
+                        <button type="submit" id="botonint">Enviar</button>
+                    </div>
+                </div>
+                
+            </div>
+
+           
+
+        </form>
+    </main>
+    <script src="./script/script2.js"></script>
 </body>
+
 </html>
