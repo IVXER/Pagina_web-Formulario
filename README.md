@@ -61,3 +61,22 @@
 28. **```X:only-child```** Te permite afectar elementos que sean los únicos hijos de su padre. 
 29. **```X:only-of-type```** Esta pseudo clase estructural puede ser usada en maneras inteligentes. Afectará elementos que no tienen hermanos dentro de su contenedor padre. Como ejemplo, afectemos a todos los uls, que tengan sólo un elemento de lista.
 30. **```X:first-of-type```** La pseudo clase first-of-type te permite seleccionar los primeros hermanos de su tipo.
+## 3. Consultar que es display block,inline e inline-block
+### Display block
+elemento que ocupa el ancho maximo disponible.de manera predeterminada,el contenido de un elenmento de nivel de bloques es el 100% del ancho de su elemento padre y la altura es determinada por su contenido
+
+### Display inline
+cuando el elemento inline se encuentra entre dos elementos block,el elemento inline se comporta como un block anonimo,de minima anchura
+
+### Display inline-block
+es na conbinacion entre los dos elementos mencionados anteriormente,los elementos con el valor inline-block admiten dimensiones pero todavia son elementos en linea,es decir estaran colocados uno al lado del otro
+
+## 4. mostrar en la consulta anterior de las etiquetas cuales son etiquetas block,inline e inline block
+### Block
+Las etiquetas de bloque permiten definir bloques de contenido coherente, formado por texto e imágenes. Visualmente, cada bloque se muestra separado del resto de bloques.
+
+### Inline
+los elementos inline son aquellos cuyo contenido se encuentra en una misma linea, de tal manera que que si colocamos dos o más elementos en linea sin expresar un salto de linea, estos elementos se presentarán uno seguido de otro en una misma linea.
+
+### Inline block
+Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales
